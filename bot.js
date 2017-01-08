@@ -22,7 +22,7 @@ function respond() {
   } 
   else if(request.text && botRegexDL.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://amfl.freeforums.org/league-rules-t3.html");
+    postMessage("http://amfl.boards.net");
     this.res.end();
   }
   else if(request.text && botRegexTw.test(request.text)) {
